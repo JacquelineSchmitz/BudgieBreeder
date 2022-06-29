@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/login_screen_BudgieBreeder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/great_vibes"
+        android:text="Budgie Breeder"
+        android:textColor="#040404"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/login_screen_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_screen_BudgieBreeder"
+        app:srcCompat="@drawable/logo_splash_screen" />
+
+    <EditText
+        android:id="@+id/logiin_screen_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="E-mail "
+        app:layout_constraintEnd_toEndOf="@+id/login_screen_image"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/login_screen_image"
+        app:layout_constraintTop_toBottomOf="@+id/login_screen_image" />
+
+    <EditText
+        android:id="@+id/login_screen_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Passwort"
+        app:layout_constraintEnd_toEndOf="@+id/logiin_screen_email"
+        app:layout_constraintStart_toStartOf="@+id/logiin_screen_email"
+        app:layout_constraintTop_toBottomOf="@+id/logiin_screen_email"
+        tools:text="Passwort" />
+
+    <Button
+        android:id="@+id/login_screen_loginButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="@+id/login_screen_password"
+        app:layout_constraintStart_toStartOf="@+id/login_screen_password"
+        app:layout_constraintTop_toBottomOf="@+id/login_screen_password" />
+
+    <Button
+        android:id="@+id/login_screen_signupButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Sign up"
+        app:layout_constraintEnd_toEndOf="@+id/login_screen_loginButton"
+        app:layout_constraintStart_toStartOf="@+id/login_screen_loginButton"
+        app:layout_constraintTop_toBottomOf="@+id/login_screen_loginButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

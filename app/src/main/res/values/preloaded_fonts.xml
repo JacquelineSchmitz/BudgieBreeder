@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alex_brush</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/clicker_script</item>
+        <item>@font/dancing_script_bold</item>
+        <item>@font/great_vibes</item>
+        <item>@font/leckerli_one</item>
+        <item>@font/over_the_rainbow</item>
+        <item>@font/seaweed_script</item>
+        <item>@font/swanky_and_moo_moo</item>
+        <item>@font/tangerine_bold</item>
+    </array>
+</resources>
